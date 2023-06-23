@@ -1,0 +1,53 @@
+@include lg {
+    .big-coffee {
+      width: 65%;
+    }
+  
+    .brown-home {
+      width: 84%;
+      height: 500px;
+    }
+  
+    .homeBtn {
+      width: auto;
+    }
+  
+    .layout {
+      @include layout;
+    }
+  
+    .brown-section {
+      width: 45%;
+    }
+  
+    .second-brown {
+      width: 90%;
+      height: 80vh;
+  
+      .div {
+        width: 90%;
+        height: 100%;
+        margin-right: 0;
+        margin-left: auto;
+        padding: 20px 30px;
+      }
+    }
+  
+    .about-image {
+      position: absolute;
+      height: 45%;
+      width: 70%;
+      left: 0;
+      top: 20%;
+    }
+  
+    .footer {
+      height: 20vh;
+      padding-top: 30px;
+    }
+
+    .popular-coffee{
+      height: 500px;
+      width: 80%;
+    }
+  }

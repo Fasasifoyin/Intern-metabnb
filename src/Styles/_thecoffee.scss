@@ -1,0 +1,34 @@
+@each $key, $val in $base_color {
+  .body {
+    @include xs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    @include lg {
+      display: block;
+      width: 28%;
+    }
+
+    .body-image-#{$key} {
+      margin-bottom: $base_margin * 3;
+      width: 50%;
+      &:hover {
+        border: 4px solid $val;
+      }
+    }
+
+    .body-header {
+      font-weight: bold;
+      font-size: $font-size-sm;
+      margin-bottom: $base_margin;
+      margin-bottom: $base_margin;
+    }
+
+    .body-body {
+      font-size: $base_font_size;
+    }
+  }
+}

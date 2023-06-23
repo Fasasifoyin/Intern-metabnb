@@ -1,0 +1,74 @@
+@include xs {
+    .navbar {
+      backdrop-filter: blur(8px);
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    }
+  
+    .big-coffee {
+      width: 100%;
+    }
+  
+    .brown-home {
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    .homeBtn {
+      width: 100%;
+    }
+  
+    .layout {
+      display: block;
+      flex-direction: column;
+    }
+  
+    .brown-section {
+      width: 100%;
+    }
+  
+    .second-brown {
+      width: 100%;
+    }
+  
+    .about-image {
+      width: 80%;
+      height: 350px;
+      margin: 0 auto;
+    }
+  
+    .footer {
+      padding: 30px 0px;
+    }
+  
+    input[type="text"] {
+      display: block;
+      width: 100%;
+      height: 40px;
+      margin-bottom: 20px;
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+  
+    input[type="text"]::placeholder {
+      padding-left: 30px;
+    }
+  
+    textarea {
+      display: block;
+      width: 100%;
+      height: 200px;
+      background-color: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+  
+    textarea::placeholder {
+      padding-top: 10px;
+      padding-left: 30px;
+    }
+
+    .popular-coffee{
+      height: 400px;
+      width: 90%;
+    }
+  }

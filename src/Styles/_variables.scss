@@ -1,0 +1,28 @@
+//colors
+$base_color: (
+  "brown": #1e0c06,
+  "orange": #ff6d1c,
+  "white": #f5f5f5,
+);
+
+@each $key, $val in $base_color {
+  .texting-#{$key} {
+    color: $val;
+  }
+
+  .backG-#{$key} {
+    background-color: $val !important;
+  }
+}
+
+//spacing
+$base_padding: 0.75rem;
+$base_margin: 0.75rem;
+
+//font sizes
+$base_font_size: 1rem;
+$font-size-xs: $base_font_size;
+$font-size-sm: $base_font_size * 1.5;
+$font-size-md: $base_font_size * 2;
+$font-size-lg: $base_font_size * 2.5;
+$font-size-xl: $base_font_size * 4;
